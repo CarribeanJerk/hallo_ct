@@ -1,0 +1,48 @@
+# Ignore Python cache files and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg-info/
+dist/
+build/
+*.so
+
+# Ignore virtual environments
+env/
+venv/
+.hallo/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore unnecessary large files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.flac
+*.png
+*.jpg
+*.jpeg
+
+# Ignore node_modules if there's any frontend folder
+node_modules/
