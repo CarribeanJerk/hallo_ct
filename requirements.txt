@@ -1,7 +1,7 @@
 --find-links https://download.pytorch.org/whl/torch_stable.html
 
 accelerate==0.28.0
-huggingface_hub==0.14.1
+huggingface_hub>=0.20.2,<0.24.0
 audio-separator==0.17.2
 av==12.1.0
 bitsandbytes==0.43.1
