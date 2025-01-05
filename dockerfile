@@ -7,6 +7,13 @@ WORKDIR /app
 # Copy the current directory contents into the container
 COPY . .
 
+# Update package index and install build dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    g++ \
+    make \
+    ffmpeg
+
 # Install the required packages
 RUN pip install -r requirements.txt
 
