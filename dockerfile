@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
     make \
     ffmpeg
 
+RUN pip install --upgrade huggingface_hub
+
 # Install the required packages
 RUN pip install -r requirements.txt
 
