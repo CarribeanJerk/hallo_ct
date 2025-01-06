@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container
-COPY . .
+COPY . /app
 
 # Update package index and install build dependencies
 RUN apt-get update && apt-get install -y \
